@@ -38,7 +38,7 @@ img {
 
 .photo {
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .contact_element {
@@ -143,7 +143,7 @@ img {
   }
 
   .nav_element {
-    font-size: 1.2em;
+    font-size: 2em;
     padding-bottom: 30px;
     display: flex;
     justify-content: flex-end;
