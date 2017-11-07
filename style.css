@@ -74,13 +74,13 @@ img {
 
 
   .logo {
-    font-size: 0.7em;
-    margin-left: 26px;
+    font-size: 1.2em;
+    margin-left: 6vw;
   }
 
   .hamburger {
-    height: 55px;
-    margin-right: 20px;
+    height: 1.2em;
+    margin-right: 6vw;
   }
 
   .nav {
