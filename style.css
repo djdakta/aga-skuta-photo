@@ -38,7 +38,7 @@ img {
 
 .photo {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .contact_element {
