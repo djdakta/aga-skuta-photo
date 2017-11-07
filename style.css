@@ -174,7 +174,7 @@ img {
     margin: 26px;
   }
 
-  .footer, .one_arrow_container, .arrow {
+  .footer, .one_arrow_container {
     visibility: hidden;
     position: fixed;
   }
@@ -212,7 +212,7 @@ img {
   }
 
   .nav_element {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: auto;
     margin-left: 25px;
   }
@@ -256,8 +256,6 @@ img {
     margin-right: 2vw;
     position: relative;
     z-index: 1;
-    visibility: visible;
-    position: static;
   }
 
   .slider {
