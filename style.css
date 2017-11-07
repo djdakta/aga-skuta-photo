@@ -174,7 +174,7 @@ img {
     margin: 26px;
   }
 
-  .footer, .one_arrow_container {
+  .footer, .one_arrow_container, .arrow {
     visibility: hidden;
     position: fixed;
   }
@@ -228,7 +228,6 @@ img {
   }
 
   .arrow_container {
-    visibility: visible;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -236,14 +235,12 @@ img {
     height: 71vh;
     z-index: 3;
   }
-
+  
   .one_arrow_container {
     height: 100%;
     display: flex;
     align-items: center;
     opacity: 0.2;
-    visibility: visible;
-    position: static;
   }
 
   .one_arrow_container:hover {
@@ -254,8 +251,17 @@ img {
     width: 40px;
     margin-left: 2vw;
     margin-right: 2vw;
-    position: relative;
     z-index: 1;
+  }
+  
+    .left {
+    visibility: hidden;
+    position: static;
+  }
+  
+  .right {
+    visibility: visible;
+    position: static;
   }
 
   .slider {
