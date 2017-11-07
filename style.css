@@ -212,12 +212,13 @@ img {
   }
 
   .nav_element {
+    font-size: 0.8em;
+    margin-bottom: auto;
     margin-left: 25px;
   }
 
   .menu_text {
     color: #000;
-    font-size: 0.8em;
   }
 
   .slider_container {
@@ -241,6 +242,8 @@ img {
     display: flex;
     align-items: center;
     opacity: 0.2;
+    visibility: visible;
+    position: static;
   }
 
   .one_arrow_container:hover {
@@ -253,6 +256,8 @@ img {
     margin-right: 2vw;
     position: relative;
     z-index: 1;
+    visibility: visible;
+    position: static;
   }
 
   .slider {
