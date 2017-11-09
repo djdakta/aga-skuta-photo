@@ -1,5 +1,5 @@
 (function mobileArrowUp() {
-  document.querySelector('.back_to_top').addEventListener('click', function(event) {
+  const clickHandler = function(event) {
     const tempo = 70;
     let space = window.scrollY;
     function goUp() {
@@ -15,5 +15,8 @@
       }, 1);
     };
     goUp();
-  })
-})()
+  }}
+  document.querySelector('.back_to_top')
+    .addEventListener('click', clickHandler) 
+
+)()

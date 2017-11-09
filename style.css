@@ -61,8 +61,7 @@ img {
     opacity: 0.5;
     margin-top: 20px;
     z-index: 0;
-    height: 5vh;
-    max-height: 100px;
+    height: 54px;
   }
 
   .header {
@@ -75,7 +74,7 @@ img {
 
 
   .logo {
-    font-size: 1em;
+    font-size: 0.7em;
     margin-left: 26px;
   }
 
