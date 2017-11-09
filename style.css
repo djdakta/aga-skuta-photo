@@ -54,12 +54,12 @@ img {
   .top_container {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
   }
 
   .back_to_top {
     position: fixed;
-    opacity: 0.5;
+    opacity: 0.2;
     margin-top: 20px;
     z-index: 0;
     height: 54px;

@@ -17,6 +17,6 @@
     goUp();
   }}
   document.querySelector('.back_to_top')
-    .addEventListener('click', clickHandler) 
+    .addEventListener('click', clickHandler()) 
 
 )()
