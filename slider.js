@@ -1,7 +1,10 @@
 (function slider() {
-  function selector(sel) {return document.querySelector('.' + sel)};
-  const photosWidth = selector('last_photo').offsetLeft + selector('last_photo').offsetWidth;
-  const sliderWidth = selector('slider_container').offsetWidth;
+  const left = document.querySelector('.left');
+  const right = document.querySelector('.right');
+  const slider = document.querySelector('.slider');
+  const arrow_container = document.querySelector('.arrow_container');
+  const photosWidth = document.querySelector('.last_photo').offsetLeft + document.querySelector('.last_photo').offsetWidth;
+  const sliderWidth = document.querySelector('.slider_container').offsetWidth;
   let posStart = 0;
   let posEnd = photosWidth - sliderWidth;
   const interval = 0.5 * sliderWidth;
@@ -9,14 +12,14 @@
 
   function hideArrow() {
     if (posStart === 0) {
-      selector('left').style.visibility = 'hidden';
+      left.style.visibility = 'hidden';
     } else {
-      selector('left').style.visibility = 'visible';
+      left.style.visibility = 'visible';
     };
     if (posEnd === 1) {
-      selector('right').style.visibility = 'hidden'
+      right.style.visibility = 'hidden'
     } else {
-      selector('right').style.visibility = 'visible'
+      right.style.visibility = 'visible'
     }
   }
   hideArrow();
@@ -37,7 +40,7 @@
           posStart = 0;
           posEnd = photosWidth - sliderWidth;
         }
-        selector('slider').style.left = posStart + 'px';
+        slider.style.left = posStart + 'px';
         hideArrow();
       };
     }
@@ -59,13 +62,13 @@
           posStart = sliderWidth - photosWidth + 1;
           posEnd = 1;
         }
-        selector('slider').style.left = posStart + 'px';
+        slider.style.left = posStart + 'px';
         hideArrow();
       }
     }
   }
 
-  selector('arrow_container').addEventListener('click', function(event) {
+  arrow_container.addEventListener('click', function(event) {
     if (event.target.classList.contains('left')) {
       moveLeft();
     } else if (event.target.classList.contains('right')) {
