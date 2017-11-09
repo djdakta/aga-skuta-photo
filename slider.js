@@ -1,5 +1,4 @@
-// (
-  function slider() {
+(function slider() {
   const left = document.querySelector('.left');
   const right = document.querySelector('.right');
   const slider = document.querySelector('.slider');
@@ -76,6 +75,4 @@
       moveRight();
     }
   });
-}
-// )();
-window.addEventListener('load', slider());
+})();
