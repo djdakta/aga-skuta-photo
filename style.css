@@ -54,6 +54,7 @@ img {
   .top_container {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .back_to_top {
