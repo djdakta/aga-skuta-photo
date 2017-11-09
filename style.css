@@ -51,11 +51,6 @@ img {
 }
 
 @media only screen and (orientation: portrait), (max-width: 1440px) {
-  .top_container {
-    /*display: flex;
-    justify-content: center;*/
-  }
-
   .back_to_top {
     position: fixed;
     opacity: 0.2;
