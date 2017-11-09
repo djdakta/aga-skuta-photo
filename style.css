@@ -65,7 +65,7 @@ img {
     height: 54px;
   }
 
-  .go_up {
+  /*.go_up {
     animation: slide_up 0.5s forwards;
     animation-duration: 0.5s;
     -webkit-animation: slide_up 0.5s forwards;
@@ -78,7 +78,7 @@ img {
 
   @-webkit-keyframes slide_up {
     100% {top: 0}
-  }
+  }*/
 
   .header {
     min-height: 100px;
