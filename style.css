@@ -62,22 +62,9 @@ img {
     margin-top: 20px;
     z-index: 0;
     height: 50px;
+    /*left: 50%;
+    transform: translateX(-50%);*/
   }
-
-  /*.go_up {
-    animation: slide_up 0.5s forwards;
-    animation-duration: 0.5s;
-    -webkit-animation: slide_up 0.5s forwards;
-    -webkit-animation-duration: 0.5s;
-  }
-
-  @keyframes slide_up {
-    100% {top: 0}
-  }
-
-  @-webkit-keyframes slide_up {
-    100% {top: 0}
-  }*/
 
   .header {
     min-height: 100px;
