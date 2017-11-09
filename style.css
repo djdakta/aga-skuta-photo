@@ -52,8 +52,8 @@ img {
 
 @media only screen and (orientation: portrait), (max-width: 1440px) {
   .top_container {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
   }
 
   .back_to_top {
@@ -62,8 +62,8 @@ img {
     margin-top: 20px;
     z-index: 0;
     height: 50px;
-    /*left: 50%;
-    transform: translateX(-50%);*/
+    left: 50%;
+    margin-left: -25px;
   }
 
   .header {
