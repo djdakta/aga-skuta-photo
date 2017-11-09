@@ -178,7 +178,7 @@ img {
 }
 
 @media screen and (orientation: landscape), (min-width: 1136px) {
-  .top_container, .hamburger, .exit_nav, .nav_bottom {
+  .back_to_top, .hamburger, .exit_nav, .nav_bottom {
     visibility: hidden;
     position: fixed;
   }
