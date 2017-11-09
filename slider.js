@@ -78,4 +78,4 @@
   });
 }
 // )();
-document.querySelector('.slider_container').addEventListener('load', slider());
+window.addEventListener('load', slider());
