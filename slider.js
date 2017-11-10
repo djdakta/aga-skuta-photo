@@ -1,4 +1,4 @@
-function slider() {
+(function slider() {
   const left = document.querySelector('.left');
   const right = document.querySelector('.right');
   const slider = document.querySelector('.slider');
@@ -76,12 +76,12 @@ function slider() {
       moveRight();
     }
   });
-};
+})();
 
-(function afterLoad() {
-  const imgArray = [...document.querySelectorAll('.photo')];
-  imgArray.reduce((accumulator, current, index) => {
-    return current.addEventListener('load', (init) => init)
-  }, 0);
-  slider();
-})()
+// (function afterLoad() {
+//   const imgArray = [...document.querySelectorAll('.photo')];
+//   imgArray.reduce((accumulator, current, index) => {
+//     return current.addEventListener('load', (init) => init)
+//   }, 0);
+//   slider();
+// })()
