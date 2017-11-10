@@ -3,6 +3,7 @@ function slider() {
   const right = document.querySelector('.right');
   const slider = document.querySelector('.slider');
   const arrow_container = document.querySelector('.arrow_container');
+
   const photosWidth = document.querySelector('.last_photo').offsetLeft + document.querySelector('.last_photo').offsetWidth;
   const sliderWidth = document.querySelector('.slider_container').offsetWidth;
   let posStart = 0;
@@ -77,4 +78,10 @@ function slider() {
   });
 };
 
-document.querySelectorAll('.photo').addEventListener('load', slider(), false);
+(function afterLoad() {
+  const imgArray = [...document.querySelectorAll('.photo')];
+  imgArray.reduce((accumulator, current, index) => {
+    return current.addEventListener('load', (init) => init)
+  }, 0);
+  slider();
+})()
