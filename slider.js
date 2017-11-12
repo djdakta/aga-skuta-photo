@@ -1,4 +1,4 @@
-(function slider() {
+function slider() {
   const left = document.querySelector('.left');
   const right = document.querySelector('.right');
   const slider = document.querySelector('.slider');
@@ -76,7 +76,9 @@
       moveRight();
     }
   });
-})();
+};
+
+document.addEventListener('load', slider());
 
 // (function afterLoad() {
 //   const imgArray = [...document.querySelectorAll('.photo')];
