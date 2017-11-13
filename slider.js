@@ -78,7 +78,7 @@ function slider() {
   });
 };
 
-window.addEventListener('load', slider());
+window.addEventListener('load', () => slider());
 
 // (function afterLoad() {
 //   const imgArray = [...document.querySelectorAll('.photo')];
