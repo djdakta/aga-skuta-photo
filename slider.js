@@ -78,6 +78,7 @@ function slider() {
   });
 };
 
+document.querySelector('.left').style.visibility = 'hidden';
 window.addEventListener('load', () => slider());
 
 // (function afterLoad() {
