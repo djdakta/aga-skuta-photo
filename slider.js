@@ -80,11 +80,3 @@ function slider() {
 
 document.querySelector('.left').style.visibility = 'hidden';
 window.addEventListener('load', () => slider());
-
-// (function afterLoad() {
-//   const imgArray = [...document.querySelectorAll('.photo')];
-//   imgArray.reduce((accumulator, current, index) => {
-//     return current.addEventListener('load', (init) => init)
-//   }, 0);
-//   slider();
-// })()
